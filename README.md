@@ -6,6 +6,7 @@ Throughout this module we have been following Louise and her fundraising project
 
 Analysis and Challenges:
 I created a pivot table to determine outcomes of kickstarter projects related to theater based on the month that the kickstarter was launched. I then compiled this information into a line chart: [https://github.com/azarowj/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png] In a separate sheet, I then created a table examining the percentage of successful, failed, and canceled kickstarters based on their goals. I then created a line chart looking at outcomes based on goals: [https://github.com/azarowj/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png]
+One challenge that I encountered was figuring out the COUNTIFS() function. I have used the COUNTIF() function in the past, but was unaware that we could use multiple criteria with the COUNTIFS() funtion. It was also incredibly tedious to write out all of the criteria for the COUNTIFS() function, as I had to count based on a goal range, if it succeeded, failed, or was canceled, and the subcategory of being a play.
 
 What are two conclusions you can draw about the Theater Outcomes by Launch Date?
 1. Kickstarters for plays launched in December are more likely to fail than to succeed.
